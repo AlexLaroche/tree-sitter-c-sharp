@@ -3576,11 +3576,23 @@
         ]
       },
       "parameters": {
-        "multiple": false,
+        "multiple": true,
         "required": true,
         "types": [
           {
+            "type": ")",
+            "named": false
+          },
+          {
+            "type": ",",
+            "named": false
+          },
+          {
             "type": "implicit_parameter",
+            "named": true
+          },
+          {
+            "type": "modifier",
             "named": true
           },
           {
